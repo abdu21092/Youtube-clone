@@ -1,3 +1,122 @@
-.logo {
-    size: 5px;
+.nav{
+    display: inline-block;
+}
+.katta {
+    width:fit-content;
+}
+.ctn1 {
+    width: fit-content;
+}
+img {
+    /* padding: 0px 0px; */
+    /* margin: 0px 10px; */
+    /* width: 100px;
+    height: 100px; */
+}
+.ctn2 {
+    margin-left: 250px;
+}
+
+.ctn3 {
+    /* width: fit-content; */
+    margin: 0px  0px 0px 350px;
+
+}
+
+.subscribe {
+    /* position: relative;     */
+    /* margin-top: 5px; */
+}
+
+i {
+    display: inline-block;
+    padding: 5px 15px;
+}
+div {
+    display: inline-block;
+    /* margin-left: 300px; */
+    /* background-color: black; */
+}
+
+.hamma {
+    /* position: relative; */
+}
+
+.left {
+    /* position: absolute; */
+    float: left;
+    width: 700px;
+}
+
+
+iframe {
+    width: 700px;
+    height: 450px;
+}
+.right {
+    float: right;
+    width: 600px;
+}
+
+
+.uzun {
+    width: 600px;
+}
+
+.autoplay { 
+    position: absolute;
+    right: 5px;
+    margin-right: 30px;
+} 
+
+.avatarchalar {
+    border-radius: 50%;
+}
+
+h2  {
+    position: relative;
+}
+
+.attitude {
+    font: bold;
+    font-size: 16px;
+
+}
+.upauto {
+    width: fit-content;
+}
+
+.more { 
+        margin-left: 50px;
+}
+
+.playercha1 {
+    float: left;
+}
+/* .video.title {
+    float: ; */
+
+}
+
+.total {
+    margin-left: 1000px;
+}
+
+/* button {
+    position: ;
+    right: 20px; */
+
+}
+
+.comments {
+    margin-left: 40px;
+}
+
+* {
+    /* border: 2px solid greenyellow; */
+    /* width: fit-content; */
+}
+* {
+    border: 2px solid greenyellow;
+    /* width: fit-content; */
 }
