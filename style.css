@@ -1,122 +1,125 @@
-.nav{
-    display: inline-block;
-}
+
 .katta {
-    width:fit-content;
+    position: relative;
+    border: 1px solid green;
+    height: 36px;
 }
+
 .ctn1 {
-    width: fit-content;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%,-50%);
 }
-img {
-    /* padding: 0px 0px; */
-    /* margin: 0px 10px; */
-    /* width: 100px;
-    height: 100px; */
-}
+
 .ctn2 {
-    margin-left: 250px;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .ctn3 {
-    /* width: fit-content; */
-    margin: 0px  0px 0px 350px;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    right: 1%;
+    transform: translate(-8%,-50%);
+}   
 
+.nav-dib {
+    display: inline-block;
 }
 
-.subscribe {
-    /* position: relative;     */
-    /* margin-top: 5px; */
+.search {
+    width: 300px;
+}
+
+.fa-search {
+    font-size: 14px;
+}
+
+img {
+    padding: 0px 5px;
+}
+
+
+.search {
+    border: none;
 }
 
 i {
     display: inline-block;
     padding: 5px 15px;
 }
+
 div {
     display: inline-block;
-    /* margin-left: 300px; */
-    /* background-color: black; */
+}
+
+
+.fa-keyboard {
+    position: absolute;
+    right: 40px;
+}
+
+.input_keyboard {
+    font-size: 16px;
+}
+
+.search {
+    padding: 5px 10px;
 }
 
 .hamma {
     /* position: relative; */
 }
 
-.left {
+.participants {
+    position: relative;
+    display: inline-block;
+}
+
+.avatarchalar {
+    /* position: absolute;
+    right: auto; */
+}
+
+.comments {
     /* position: absolute; */
-    float: left;
-    width: 700px;
+    /* right: auto; */
+    /* margin-right: 50px; */
 }
 
-
-iframe {
-    width: 700px;
-    height: 450px;
+.playercha {
+    /* height: 100px;
+    height: 70px;
+    display: block; */
 }
-.right {
-    float: right;
-    width: 600px;
-}
-
 
 .uzun {
     width: 600px;
 }
 
-.autoplay { 
-    position: absolute;
-    right: 5px;
-    margin-right: 30px;
-} 
-
-.avatarchalar {
-    border-radius: 50%;
+.left {
+    /* display: block; */
+    /* float: left; */
+    /* position: absolute; */
+    /* left: 5%; */
+    
 }
 
-h2  {
-    position: relative;
+.right {
+    /* display: block; */
+    float: right;
+    /* position: relative;
+    right: 1%; */
 }
 
-.attitude {
-    font: bold;
-    font-size: 16px;
 
-}
-.upauto {
-    width: fit-content;
-}
-
-.more { 
-        margin-left: 50px;
-}
-
-.playercha1 {
-    float: left;
-}
-/* .video.title {
-    float: ; */
-
-}
-
-.total {
-    margin-left: 1000px;
-}
-
-/* button {
-    position: ;
-    right: 20px; */
-
-}
-
-.comments {
-    margin-left: 40px;
-}
 
 * {
-    /* border: 2px solid greenyellow; */
-    /* width: fit-content; */
-}
-* {
-    border: 2px solid greenyellow;
-    /* width: fit-content; */
+    border: 1px solid greenyellow;
 }
