@@ -1,4 +1,7 @@
-
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
 .katta {
     position: relative;
     border: 1px solid green;
@@ -75,6 +78,7 @@ div {
 
 .hamma {
     /* position: relative; */
+    clear: both;
 }
 
 .participants {
@@ -83,14 +87,59 @@ div {
 }
 
 .avatarchalar {
-    /* position: absolute;
-    right: auto; */
+    /* right: auto; */
+    height: auto;
+    border-radius: 50%;
+    height: 60px;
+    
+     
+}
+
+.attitude {
+    display: block;
+}
+
+.guest_avat {
+    right: auto;
+    border-radius: 50%;
+    height: 60px;
+    margin-bottom: 30px;
+    width: 60px;
+
+}
+
+.subscribe {
+    position: absolute;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+
+}
+
+.commentator {
+    width: fit-content;
+
+}
+
+.author_time {
+    margin-top: 0%;
 }
 
 .comments {
     /* position: absolute; */
     /* right: auto; */
-    /* margin-right: 50px; */
+    margin-left: 80px;
+    width: 500px;
+
+
+}
+
+.guest_comment {
+    margin-left: 0px;
+    width: 500px;
+
 }
 
 .playercha {
@@ -99,6 +148,13 @@ div {
     display: block; */
 }
 
+.fa-stream {
+    margin-left: 30px;
+}
+
+.scripts {
+    width: 600px;
+}
 .uzun {
     width: 600px;
 }
@@ -108,6 +164,9 @@ div {
     /* float: left; */
     /* position: absolute; */
     /* left: 5%; */
+    width: 55%;
+    margin-left: 10px;
+
     
 }
 
@@ -116,10 +175,38 @@ div {
     float: right;
     /* position: relative;
     right: 1%; */
+    width: 43%;
+    margin-right: 10px;
+
+
+}
+
+.address {
+    width: 95%;
+    position: relative;
+}
+
+.author {
+    width: 500px;
+    height: auto;
+}
+
+.player {
+    width: 700px;
+    height: auto;
+}
+
+.text {
+    margin-top: ;
+}
+
+.fa-bell {
+    padding: 3px;
+    margin: 1px;
 }
 
 
 
 * {
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
 }
